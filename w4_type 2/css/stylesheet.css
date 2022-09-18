@@ -1,0 +1,122 @@
+@font-face {
+    font-family: myFriste;
+    src: url("../font/Montserrat_Alternates/MontserratAlternates-Bold.ttf") ;
+
+
+}
+@font-face {
+    font-family: myFristee;
+    src: url("../font/Montserrat_Alternates/MontserratAlternates-Light.ttf") ;
+
+
+}
+
+* {
+	font-family: myFristee;
+
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #5D6063;
+  background-color: rosybrown;
+}
+
+
+.div1 {
+  width: 300px;
+  height: 500px;
+  border: 5px solid white;
+  background-color: pink;
+  margin-bottom: 50px;
+  margin: 25px 50px 75px 200px;
+  padding: 20px;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;  
+  padding: 100px;
+  border: 5px solid white;
+  background-color: lightblue;
+  margin-bottom: 20px;
+    margin: 100px;
+
+}
+
+#setTwo1{
+	box-sizing: border-box;
+	
+}
+#setTwo2{
+	box-sizing: border-box;
+    margin: 200px;
+  padding: 0px;
+
+}
+
+
+
+.div3 { 
+  padding: 100px;
+  border: 20px solid white;
+  background-color: lightblue;
+  margin-bottom: 20px;
+   word-break: normal;
+  line-height: 1.6;
+	  text-align: justify;
+	
+
+
+}
+p{
+		color: floralwhite;
+
+	  text-indent: 25px;
+	font-family: myFristee;
+
+}
+
+em{
+		color: floralwhite;
+
+	font-family: myFristee;
+
+}
+
+
+
+.div4 { /*design the style*/
+	padding: 100px;
+}
+
+
+
+
+h1{
+			color: floralwhite;
+	font-family: myFriste;
+	padding-bottom: 30px;
+}
+h2 {	
+		color: floralwhite;
+	font-family: myFriste;
+}
+
+h3 {
+		color: floralwhite;
+
+	font-family: myFriste;
+	font-size: 40px;
+}
+h4 {	
+	color: floralwhite;
+	font-family: myFriste;
+	font-size: 40px;
+
+}
